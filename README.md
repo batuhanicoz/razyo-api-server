@@ -1,9 +1,11 @@
-###OLD VERSION###
+###THIS REPO IS TURKISH###
 
-This directory contains razyo api v0.8, here are some notes about it:
+Bu depoda razyo.com'un api'sinin *kendisini* (api kullanım örneği değil) bulabilirsiniz.
 
-1) Its variables, comments and functions are in *Turkish*.
-2) It only supports Shoutcast v1.x
-3) You need to set your server information in veriler/bilgiler.php
-4) I used FatFreeFramework and you need to install F3 yourself to make it work. 
-    Just install it and then correct the necessary information in web/index.php
+Bir kaç not:
+
+1) Sadece Shoutcast v1.x ile denenmiştir.
+2) Sunucu bilgilerini veriler/bilgiler.php dosyasını düzenlemeniz gerekiyor.
+3) FatFreeFramework kullandım, F3'ü kendinizin yüklemesi gerekiyor, yüklendikten sonra web/index.php dosyasının ilgili satırlarını düzeltin.
+
+--Batuhan Icoz
