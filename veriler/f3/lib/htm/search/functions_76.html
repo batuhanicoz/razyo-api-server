@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRResult" id="SR_valid">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../classBase.htm#a5b1e02c4f1771608dc4ba483e6dfd7d7" target="_parent">valid</a>
+  <span class="SRScope">Base</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_validcaptcha">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../classData.htm#a01aaf733d375bcee24882865234e0faa" target="_parent">validCaptcha</a>
+  <span class="SRScope">Data</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_validemail">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../classData.htm#ac79ecbdfec49d939904cd849b38406fb" target="_parent">validEmail</a>
+  <span class="SRScope">Data</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_validurl">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../classData.htm#aefe3795ed4476d93b5a4ff0c77003f5d" target="_parent">validURL</a>
+  <span class="SRScope">Data</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_verify">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="../classAkismet.htm#a7b86f3d2bf0a371b8bb2f410b3a6ae6c" target="_parent">verify</a>
+  <span class="SRScope">Akismet</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <?php
-require '/srv/private/frameworks/f3/lib/base.php'; //catiyi yukle
+require '../veriler/f3/lib/base.php'; //catiyi yukle
 
 require_once '../veriler/bilgiler.php'; //gereken bilgileri çek
 
